@@ -1,0 +1,4 @@
+# mailer
+Mailer realizado con HTML, JAVASCRIPT y EXPRESS.JS
+
+USANDO LA API DE SENDGRID , EXPRESSJS
