@@ -15,22 +15,6 @@ app.use(express.static('app'))
 
 app.get('/', (req,res) => {
     res.sendFile(`${path.resolve()}/index.html`)
-    
-   
-    // const msg = {
-    //     to: 'gabriel@mailinator.com', // Change to your recipient
-    //     from: process.env.FROM, // Change to your verified sender
-    //     subject: 'Sending with SendGrid is Fun',
-    //     html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-    // }
-    // sgMail
-    //     .send(msg)
-    //     .then(() => {
-    //         console.log('Email sent')
-    //     })
-    //     .catch((error) => {
-    //         console.error(error)
-    //     })
 })
 
 app.post('/send', async (req,res) => {
